@@ -1,4 +1,4 @@
 
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-<https://example.com/me> foaf:knows <https://pietercolpaert.be/#me> .
+<https://wardlombaert.github.io/BDSKN/page.ttl> foaf:knows <https://pietercolpaert.be/#me> .
