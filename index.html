@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>My Linked Data Document</title>
-    <link rel="alternate" type="application/rdf+xml" href="https://wardlombaert.github.io/BDSKN/page.ttl">
 </head>
 <body>
     <h1>Welcome to My Linked Data Document!</h1>
     <script type="text/turtle">
+    @base <https://wardlombaert.github.io/BDSKN/> .
     @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-    <https://wardlombaert.github.io/BDSKN/> a foaf:Person ;
-                                            foaf:name "Ward Lombaert" ;
-                                            foaf:homepage "https://wardlombaert.github.io/BDSKN/";
-                                            foaf:knows <https://pietercolpaert.be/#me> ;
-                                            foaf:knows <https://sven-lieber.org/>.
-        </script>
+    <> a foaf:Person ;
+       foaf:name "Ward Lombaert" ;
+       foaf:homepage "https://wardlombaert.github.io/BDSKN/" ;
+       foaf:knows <https://pietercolpaert.be/#me> ;
+       foaf:knows <https://sven-lieber.org/> .
+    </script>
 </body>
 </html>
