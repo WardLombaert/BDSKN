@@ -1,4 +1,7 @@
-
+@base <https://wardlombaert.github.io/BDSKN/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-
-<https://wardlombaert.github.io/BDSKN/page.ttl> foaf:knows <https://pietercolpaert.be/#me> .
+<> a foaf:Person ;
+   foaf:name "Ward Lombaert" ;
+   foaf:homepage "https://wardlombaert.github.io/BDSKN/" ;
+   foaf:knows <https://pietercolpaert.be/#me> ;
+   foaf:knows <https://sven-lieber.org/> .
